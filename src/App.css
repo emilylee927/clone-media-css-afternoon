@@ -153,13 +153,13 @@ h4{
 }
 
 #menu{
-  transition: height 0.5s;
+  transition: height 0.26s;
 }
 
 .menu-open,
 .menu-close{
   width:100vw;
-  height:40vh;
+  height:38vh;
   background-color: #212529;
   position:fixed;
 }
@@ -174,13 +174,14 @@ h4{
 
 .menu-close .dropdown-menu{
 max-height:0;
-transition: all 0.4s;
+transition: all 2s ease-out;
 }
 
 .dropdown-menu li {
   opacity: 0;
-  animation: fadeIn 0.4s ;
+  animation: fadeIn 1s ;
   animation-fill-mode: forwards;
+  transition:all 0.6s ease-out
 }
 
 .dropdown-menu li {
